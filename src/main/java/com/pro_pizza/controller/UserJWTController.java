@@ -1,4 +1,4 @@
-package com.pro_pizza.domain;
+package com.pro_pizza.controller;
 
 
 
@@ -23,6 +23,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.pro_pizza.controller.vm.LoginVM;
+import com.pro_pizza.domain.User;
 import com.pro_pizza.security.JwtUtils;
 import com.pro_pizza.service.UserService;
 
@@ -48,7 +49,7 @@ public class UserJWTController {
 		//RegisterOK ok=new RegisterOK("Successfull");
 		//return new ResponseEntity<>(ok,HttpStatus.CREATED);			
 	}
-	
+//	lhttp://localhost:8081/pizza/api/login/oauth2/code/google
 
 	@PostMapping("/login")
 	public ResponseEntity<JWTToken> login(@Valid @RequestBody LoginVM loginVM){

@@ -23,6 +23,19 @@ spring:
     multipart:
       max-request-size: 2MB
       max-file-size: 2MB
+#  security:
+#    oauth2:
+#      client:
+#        registration:
+#          google:
+#            client-ıd:  641912812258-s5s9fkep33bshimicsnqf8noanvesob4.apps.googleusercontent.com
+#            client-secret: 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
+#            scope:
+#            - email
+#            - profile
+#             
+       
+          
         
             
 logging:
