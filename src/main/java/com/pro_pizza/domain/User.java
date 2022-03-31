@@ -89,7 +89,8 @@ public class User {
 	
 	@Column(nullable = false)
 	private Boolean builtIn;
-	
+	@Column(nullable = true)
+	private Boolean enabled;
 	/*
 	 * Bir user birden fazla role sahip olabilir. Bu nedenle manytomany yapıldı ve
 	 * rolleri tutacak hashset tipinde bir alan eklendi.
