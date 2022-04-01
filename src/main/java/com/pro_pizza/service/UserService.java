@@ -73,7 +73,7 @@ public class UserService {
           mailMessage.setSubject("Complete Registration!");
 //        mailMessage.setFrom("mehmetoz.ozbay@gmail.com");
           mailMessage.setText("To confirm your account, please click here : "
-          +"http://localhost:3000/confirmemail="+confirmationToken.getConfirmationToken());
+          +"https://pizza-frontend-psi.vercel.app/confirmemail="+confirmationToken.getConfirmationToken());
           emailService.sendEmail(mailMessage);
 	}
 
