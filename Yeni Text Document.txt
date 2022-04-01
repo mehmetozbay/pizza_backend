@@ -1,0 +1,12 @@
+ec2-34-246-227-219.eu-west-1.compute.amazonaws.com  
+
+5432 
+
+mvqrwedgpwihty
+
+
+
+de275f1e77e04d37102a0ddd473ce4e046d8d45ee6ac5eb096658d4eb0ea1f93
+
+
+postgres://mvqrwedgpwihty:de275f1e77e04d37102a0ddd473ce4e046d8d45ee6ac5eb096658d4eb0ea1f93@ec2-34-246-227-219.eu-west-1.compute.amazonaws.com:5432/d5n53mhk480b8n
