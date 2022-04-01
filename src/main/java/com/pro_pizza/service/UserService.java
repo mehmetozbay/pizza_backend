@@ -73,7 +73,7 @@ public class UserService {
           mailMessage.setSubject("Complete Registration!");
 //        mailMessage.setFrom("mehmetoz.ozbay@gmail.com");
           mailMessage.setText("To confirm your account, please click here : "
-          +"http://localhost:3002/confirmemail="+confirmationToken.getConfirmationToken());
+          +"http://localhost:3000/confirmemail="+confirmationToken.getConfirmationToken());
           emailService.sendEmail(mailMessage);
 	}
 
