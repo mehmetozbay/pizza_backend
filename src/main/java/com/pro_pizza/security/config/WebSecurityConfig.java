@@ -71,7 +71,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 		.sessionCreationPolicy(SessionCreationPolicy.STATELESS).and()
 		.authorizeRequests().antMatchers(HttpMethod.OPTIONS, "/**").permitAll().
 		
-		antMatchers("/register","/login","/user/**","/confirm-account/*")
+		antMatchers("pizza/api/register","pizza/api/login","pizza/api/user/**","pizza/api/confirm-account/*")
 		.permitAll()
 		.anyRequest().authenticated();
 		
